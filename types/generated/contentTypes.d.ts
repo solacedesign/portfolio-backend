@@ -405,6 +405,7 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
     ProjectImage3: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
+    ProjectLink: Schema.Attribute.String;
     ProjectTitle: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
     Thumbnail: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;

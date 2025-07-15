@@ -63,6 +63,9 @@
     "IsVisible": {
       "type": "boolean",
       "default": true
+    },
+    "ProjectLink": {
+      "type": "string"
     }
   }
 }
